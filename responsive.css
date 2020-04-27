@@ -1,0 +1,105 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .lesson {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .kontak-wrapper{
+    height: 1200px;
+  }
+  .kontak {
+    width: 100%;
+  }
+  
+  .column {
+    width: 100%;
+    display: block;
+    margin:auto;
+   
+  }
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  
+  .heading h2 {
+    font-size: 20px;
+  }
+  .slider { 
+	margin:20px auto;
+	width: 600px;
+	height: 450px; 
+}
+  .header ul{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .lesson {
+    width: 100%;
+  }
+  .kontak {
+    width: 100%;
+  }
+  .kontak-wrapper{
+    height: 1200px;
+  }
+  footer {
+    text-align: center;
+  }
+  
+  .btn {
+    width: 100%;
+  }
+  
+  .facebook {
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper {
+    text-align: left;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display:none;
+
+  }
+  .header ul{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+  }
+  
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  
+  .slider{
+	  margin:20px auto;
+	  width: 450px;
+	  height: 250px;
+  }
+
+  .column {
+    width: 100%;
+  
+  }
+  .flip-card {
+    width: 100%;
+    display: block;
+    margin:auto;
+   
+  }
+
+}
+
